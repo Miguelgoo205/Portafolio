@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    border-bottom: solid 2px #551a8b;
+    background-color: #000000;
+}
+
+header i {
+    color: #1fdf64;
+    font-size: 1.8rem;
+    align-self: center;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
+header h1{
+    font-size: 2.5rem;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav a{
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    color: #1fdf64;
+    border-radius: 10px;
+    border: solid 2px #707070;
+    text-decoration: none;
+    margin: 1rem;
+}
+nav a:hover{
+    background-color: #1fdf64;
+    color: #ffffff;
+    transition: .4s linear;
+}
+#actually {
+    color: #707070;
+    border: solid 2px #551a8b;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+
+div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    color: black;
+    align-items: center;
+}
+
+div p{
+    text-transform: capitalize;
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    color: #ffffff;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1{
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin: 2.5rem 3rem 1.7rem;
+}
+
+#tecnos{
+    color: #551a8b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: solid 2px #551a8b;
+    color: white;
+}
+span{
+    color: #1fdf64;
+}
+.icons{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#icon{
+    color: #1fdf64;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+#icon:hover{
+    color: #551a8b;
+    transition: .3s linear;
+}
